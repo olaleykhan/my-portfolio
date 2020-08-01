@@ -1,0 +1,108 @@
+header>h1{
+
+  white-space: pre-wrap;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+
+}
+
+header>p{
+  padding: 5% 10%;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+/* .test{
+  height: 100vh;
+} */
+
+header button.btn{
+  /* background-color: red; */
+  font-size: 1rem;
+  /* padding: 0.5rem 0.8rem; */
+  margin-top: 8vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-section .qualities{
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ /* max-width: 70vw; */
+}
+
+.qualities .quality{
+  margin: 1.2rem;
+  max-width: 70%;
+  
+}
+
+section .my-skills{
+
+  min-width: 250px;
+  max-width: 80vw;
+  
+}
+
+.sm-icons{
+/* flex-direction: column; */
+/* justify-items: center; */
+/* align-items: center; */
+}
+
+.sm-icon{
+  margin: 10px;
+
+  font-size: 25px;
+}
+
+.sm-icon:hover{
+  font-size: 40px;
+  margin: 5px 12px;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+nav ul{
+ position: absolute;
+ right: 0px;
+ height: 94vh;
+ top: 6vh;
+ background-color: var(--oxford-blue);
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ width: 50%;
+ transform: translateX(100%);
+ transition: transform ease-in 500ms;
+ /* overflow: hidden; */
+}
+
+.nav-ul li{
+  opacity: 0;
+}
+
+
+.burger{
+  display: block;
+  cursor: pointer;
+}
+
