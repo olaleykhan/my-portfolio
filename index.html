@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="28x32" href="./images/alaf logo png1Asset 2@4x.png">
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Staatliches&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   
@@ -13,7 +14,7 @@
   <link rel="stylesheet" media="screen and (max-width: 992px)" href="tablet.css">
   <link rel="stylesheet" media="screen and (max-width: 500px)" href="mobile.css">
  
-  <title>Overlay</title>
+  <title>Abdullah's Portfolio</title>
 
 
 </head>
@@ -27,19 +28,22 @@
       I'm a <span class="stress">budding frontend web developer</span>. <br> <br> I wish I was
        here to show you around but hey, you won't get lost, even on your own. I promise
        </p>
-    <button class="btn">Learn more <i class="fas fa-arrow-right  "></i> <i class="fas fa-arrow-down  "></i></button>
+
+    <a href="#portfolio" class="btn">Learn more <i class="fas fa-arrow-right  "></i> <i class="fas fa-arrow-down  "></i></a>
   </header>
  </div>
 
   <nav>
-    <div class="container">
-      <h1 id="logo">
-        <img src="./images/alaf logo png1Asset 2@4x.png" alt="">   Home
-      </h1>
+    <div class="container" >
+      <a href="#header">
+        <h1 id="logo">
+          <img src="./images/alaf logo png1Asset 2@4x.png" alt="">   Home
+        </h1>
+      </a>
       <ul class="nav-ul">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="#">Contact</a></li>
         <!-- <li><a href="#"></a></li> -->
       </ul>
@@ -53,7 +57,7 @@
     
   </nav>
 
-  <section class="about-section">
+  <section class="about-section" id="about">
     <h1 class="topic">
       About
     </h1>
@@ -107,7 +111,7 @@
    </div>
   </section>
 
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     
     <div class="container">
 
@@ -116,9 +120,9 @@
       </h1>
      <div class="portfolio-display">
        <div class="card">
-         <a href="#">
-           <img class="portfolio-image" src="./images/paper scis game.png" alt="">
-         </a>
+         <!-- <a href="#"> -->
+           <img class="portfolio-image" src="./images/paper scis game.png" alt=" Paper rock scissors game">
+         <!-- </a> -->
          <div class="card-text">
            <h3 class="card-title">
               Rock Paper Scissors
@@ -129,13 +133,13 @@
             <span class=" tag css">CSS</span>
             <span class=" tag js">JS</span>
          </p>
-           <a href="google.com" class="card-btn"> Read More</a>
+           <a href="https://zealous-goldwasser-6a1e45.netlify.app/" class="card-btn">  Check me</a>
          </div>
        </div>
        
        <div class="card">
-         <a href="#">
-           <img class="portfolio-image" src="./images/bookmark webpage.png" alt="">
+         <a href="#" target="_blank">
+           <img class="portfolio-image" src="./images/bookmark webpage.png" src="./images/" alt="">
          </a>
          <div class="card-text">
           <h3 class="card-title">
@@ -147,15 +151,15 @@
            <span class=" tag css">CSS</span>
            <span class=" tag js">JS</span>
         </p>
-        <a href="google.com" class="card-btn"> Read More</a>
+        <a href="https://elated-snyder-9fd8b1.netlify.app/"  target="_blank" class="card-btn"> Check me</a>
         </div>
        </div>
 
 
        <div class="card">
-         <a href="#">
+         <!-- <a href="https://quizzical-newton-3b6b4a.netlify.app/"> -->
            <img class="portfolio-image" src="./images/color game.png" alt="">
-         </a>
+         <!-- </a> -->
 
          <div class="card-text">
           <h3 class="card-title">
@@ -167,15 +171,15 @@
            <span class=" tag css">CSS</span>
            <span class=" tag js">JS</span>
         </p>
-        <a href="google.com" class="card-btn"> Read More</a>
+        <a href="https://quizzical-newton-3b6b4a.netlify.app/" target="_blank" class="card-btn">  Check me</a>
         </div>
        </div>
 
 
        <div class="card">
-         <a href="#">
+         <!-- <a href="#"> -->
            <img class="portfolio-image" src="./images/country info.png" alt="">
-         </a>
+         <!-- </a> -->
 
          <div class="card-text">
           <h3 class="card-title">
@@ -186,11 +190,70 @@
            <span class=" tag html">HTML</span>
            <span class=" tag css">CSS</span>
            <span class=" tag js">JS</span>
-        </p>
-        <a href="google.com" class="card-btn"> Read More</a>
+          </p>
+          <a href="https://naughty-payne-e73adb.netlify.app/" target="_blank" class="card-btn">  Check me</a>
         </div>
        </div>
        <div class="card">
+         <!-- <a href="#"> -->
+           <img class="portfolio-image" src="./images/huddle page.png" alt="huddle page">
+         <!-- </a> -->
+
+         <div class="card-text">
+          <h3 class="card-title">
+             Huddle Landing Page
+          </h3>
+          <!-- <p class="">displays country information from external API</p> -->
+         <p class="tag-container"> 
+           <span class=" tag html">HTML</span>
+           <span class=" tag css">CSS</span>
+           <!-- <span class=" tag js">JS</span> -->
+          </p>
+          <a href="https://vigorous-jackson-d50146.netlify.app/" target="_blank" class="card-btn">  Check me</a>
+        </div>
+       </div>
+
+       
+       <div class="card">
+         <!-- <a href="#"> -->
+           <img class="portfolio-image" src="./images/sign-up page.png" alt="A sign-up page">
+         <!-- </a> -->
+
+         <div class="card-text">
+          <h3 class="card-title">
+             Sign-up Page
+          </h3>
+          <!-- <p class="">displays country information from external API</p> -->
+         <p class="tag-container"> 
+           <span class=" tag html">HTML</span>
+           <span class=" tag css">CSS</span>
+           <span class=" tag js">JS</span>
+          </p>
+          <a href="https://infallible-dijkstra-fb755d.netlify.app/" target="_blank" class="card-btn">  Check me</a>
+        </div>
+       </div>
+
+
+       <div class="card">
+         <!-- <a href="#"> -->
+           <img class="portfolio-image" src="./images/Todo App.png" alt="A Todo App">
+         <!-- </a> -->
+
+         <div class="card-text">
+          <h3 class="card-title">
+             Todo App
+          </h3>
+          <!-- <p class="">displays country information from external API</p> -->
+         <p class="tag-container"> 
+           <span class=" tag html">HTML</span>
+           <span class=" tag css">CSS</span>
+           <span class=" tag js">JS</span>
+          </p>
+          <a href="https://serene-mahavira-0aebb9.netlify.app/" target="_blank" class="card-btn">  Check me</a>
+        </div>
+       </div>
+
+       <!-- <div class="card">
          <a href="#">
            <img class="portfolio-image" src="./images/paper scis game.png" alt="">
          </a>
@@ -204,7 +267,7 @@
          <a href="#">
            <img class="portfolio-image" src="./images/paper scis game.png" alt="">
          </a>
-       </div>
+       </div> -->
 
      </div>
 

@@ -201,6 +201,9 @@ nav .container{
 
 
 }
+nav h1{
+  color: var(--white);
+}
 #logo{
   display: flex;
   align-items: center;
@@ -246,6 +249,7 @@ nav ul li a:hover{
 
 .nav-active{
   transform: translateX(0%);
+  
 }
 
 @keyframes navLinkFade{
@@ -284,12 +288,19 @@ section.about-section{
   display: flex;
   text-align: center;
   margin-bottom: 5rem;
-  /* flex-wrap: wrap; */
-  /* margin: 0 4rem; */
 }
 
 .qualities .quality{
   margin: 0 2rem;
+
+}
+
+.quality i{
+  /* background-color: red; */
+  padding-top: 200px;
+  align-self: center;
+  line-height: 6rem;
+  /* margin-top: 200px; */
 }
 
 .about-section i{
@@ -318,9 +329,6 @@ section .about{
   flex-direction: row ;
   justify-content: space-between;
   align-items: center;
-  /* justify-items: right; */
-  /* align-items: flex-end; */
-  /* background-color: red; */
 }
 
 section .my-picture{
@@ -601,29 +609,30 @@ form textarea{
 
 form .btn{
   /* display: inline; */
-  /* background-color: var(--platinum); */
-  border: 2px solid var(--platinum);
-  max-width: fit-content;
-  padding:  6px 12px;
+  background-color: var(--platinum);
+  /* background-color: gray; */
+  display: block;
+  /* border: 1px solid var(--platinum); */
+  /* max-width: fit-content; */
+  padding:  10px 12px;
 
 }
 
 form .btn:hover{
-  padding: 6px 12px;
+  padding: 10px 12px;
+  /* background-color: var(--white); */
+  border: none;
 }
 
 
 
 
-/* ****************THis styles the footer */
+/* **********************************THis styles the footer********************************************************************/
 
 footer{
   background-color: var(--oxford-blue);
 }
 
-.footer{
-  /* margin: 2rem auto; */
-}
 footer i{
   color: white;
   /* background-color: red; */
@@ -653,88 +662,6 @@ footer i:hover{
   margin: 10px 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.hexagon {
-  background-color: #04c2c9;
-  display: inline-block;
-  height: 100%;
-  width: calc(100% * 0.57735);
-}
-.hex-wrap {
-  display: inline-block;
-  height: 80px;
-  position: relative;
-  text-align: center;
-  width: 80px;
-}
-
-/* .portfolio-display .portfolio-image:hover{
-  opacity: 0.4 !important;
-
-} */
-/* .portfolio .card:hover{
-  opacity: 0.4 !important;
-
-} */
-
-
-
-/* .portfolio-display .card:hover::before{
-  background-color: var(--black);
-  opacity: 0.4;
-
-}
-.portfolio-display .card::before,::after{
-  content: '';
-  position: absolute;
-  
-  border-radius: 10px;
- 
-
-} */
-
-/* .portfolio-display .card::after{ */
-  /* background: var(--black); */
-  /* transform: scale(0,1);
-  transition: transform ease-out 250ms;
-  border-top: 2px solid white;
-  border-bottom: 1px solid white;
-  top: 1rem;
-  bottom: 1rem;
-  left: 1rem;
-  right: 1rem;
-} */
-
-/* .portfolio-display .card:hover::after{
-  transform: scale(1,1);
-}
-.portfolio-display .card-text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  opacity: 0.5;
-  transition: opacity ease-out 250ms;
-  color: white;
-  text-align: ce 
-}
-.portfolio-display .card-text:hover{
-  opacity: 1;
-  cursor: pointer;
-} */
 
 
 

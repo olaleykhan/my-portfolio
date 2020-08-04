@@ -23,19 +23,7 @@ header button.btn{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 .about-section .qualities{
@@ -75,7 +63,7 @@ section .my-skills{
   margin: 5px 12px;
 }
 
-body{
+html,body{
   overflow-x: hidden;
 }
 
